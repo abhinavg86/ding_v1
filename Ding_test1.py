@@ -14,6 +14,7 @@ import warnings
 from twilio.rest import Client
 from twilio.base.exceptions import TwilioRestException
 from datetime import datetime, timedelta
+!pip install yfinance
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 warnings.filterwarnings("ignore")
